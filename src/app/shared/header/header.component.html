@@ -1,0 +1,14 @@
+<ul class="nav justify-content-center navigation-bg">
+  <li class="nav-item" *ngIf="currentPath.url !== '/'">
+    <a class="nav-link white-color" href="">Home</a>
+  </li>
+  <li class="nav-item" *ngIf="currentPath.url !== '/planets'">
+    <a class="nav-link white-color" href="/planets">Planets</a>
+  </li>
+  <li class="nav-item" *ngIf="currentPath.url !== '/vehicles'">
+    <a class="nav-link white-color" href="/vehicles">Vehicles</a>
+  </li>
+  <li class="nav-item" *ngIf="currentPath.url !== '/problem'">
+      <a class="nav-link white-color" href="/problem">Problem</a>
+  </li>
+</ul>
